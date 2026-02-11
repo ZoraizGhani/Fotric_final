@@ -1,0 +1,270 @@
+{% schema %}
+{
+  "name": "Testimonials Swiper",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 80
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Testimonial Text",
+          "default": "This product is amazing. Highly recommended!"
+        },
+
+        {
+            "type": "image_picker",
+            "id": "imageavtor",
+            "label": "Author img",
+         
+          },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author Name",
+          "default": "Sara JEF"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials Swiper (Nav + Dots)"
+    }
+  ]
+}
+{% endschema %}
+
+<!-- ================= SECTION ================= -->
+<section
+  class="ts-wrap"
+  id="ts-{{ section.id }}"
+>
+    <div class="container">
+  <div class="swiper ts-swiper ">
+
+    <!-- NAVIGATION -->
+    <div class="ts-nav ts-prev">‹</div>
+    <div class="ts-nav ts-next">›</div>
+
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide ts-slide">
+          <div class="ts-card">
+            <div class="ts-stars"><svg width="136" height="24" viewBox="0 0 136 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.825 21L7.45 13.975L2 9.25L9.2 8.625L12 2L14.8 8.625L22 9.25L16.55 13.975L18.175 21L12 17.275L5.825 21Z" fill="#E9D70C"/>
+                <path d="M33.825 21L35.45 13.975L30 9.25L37.2 8.625L40 2L42.8 8.625L50 9.25L44.55 13.975L46.175 21L40 17.275L33.825 21Z" fill="#E9D70C"/>
+                <path d="M61.825 21L63.45 13.975L58 9.25L65.2 8.625L68 2L70.8 8.625L78 9.25L72.55 13.975L74.175 21L68 17.275L61.825 21Z" fill="#E9D70C"/>
+                <path d="M89.825 21L91.45 13.975L86 9.25L93.2 8.625L96 2L98.8 8.625L106 9.25L100.55 13.975L102.175 21L96 17.275L89.825 21Z" fill="#E9D70C"/>
+                <path d="M117.825 21L119.45 13.975L114 9.25L121.2 8.625L124 2L126.8 8.625L134 9.25L128.55 13.975L130.175 21L124 17.275L117.825 21Z" fill="#E9D70C"/>
+                </svg>
+                </div>
+            <p class="ts-text">{{ block.settings.text }}</p>
+            <span class="ts-author"><img class="images_avtor" src="{{ block.settings.imageavtor | image_url  }}">{{ block.settings.author }}</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- PAGINATION -->
+    <div class="swiper-pagination ts-pagination"></div>
+  </div>
+</div>
+</section>
+
+<!-- ================= STYLES ================= -->
+<style>
+
+    .ts-wrap {
+        background: #F3F3F3;
+    }
+/* ===== PARENT ===== */
+#ts-{{ section.id }} {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* ===== SLIDE ===== */
+#ts-{{ section.id }} .ts-slide {
+  display: flex;
+  justify-content: center;
+}
+p.ts-text {
+    font-size: 14px !important;
+}
+
+.ts-pagination {
+    position: relative;
+    margin-top: 24px;
+    bottom: -30px;
+}
+.ts-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    opacity: 0.25;
+    border: 0.29px solid #000000 !important;
+}
+span.ts-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+img.images_avtor {
+    width: 48px;
+}
+/* ===== CARD ===== */
+#ts-{{ section.id }} .ts-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  transform: scale(0.85);
+  opacity: 0.4;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+.ts-stars {
+    max-width: 139px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+/* ACTIVE CENTER */
+#ts-{{ section.id }} .swiper-slide-active .ts-card {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* ===== NAVIGATION ===== */
+#ts-{{ section.id }} .ts-nav {
+  position: absolute;
+
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+ 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+ 
+}
+.ts-nav {
+    bottom: 0 !important;
+    top: 92% ;
+    background: #1566E0 !important;
+    color: #fff;
+}
+#ts-{{ section.id }} .ts-prev {
+  left: 16px;
+}
+
+#ts-{{ section.id }} .ts-next {
+  right: 16px;
+}
+
+/* ===== PAGINATION ===== */
+#ts-{{ section.id }} .ts-pagination {
+  position: relative;
+  margin-top: 65px;
+
+  margin-bottom: 0px;
+
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #000;
+}
+#ts-{{ section.id }} .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+
+  opacity: 0.25;
+}
+
+#ts-{{ section.id }} .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.swiper.ts-swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding: 30px 0 10px 0;
+}
+.swiper-slide.ts-slide.swiper-slide-active {
+    scale: 1.2;
+    opacity: 1;
+}
+.swiper-slide.ts-slide {
+   opacity:0.5;
+    background: #fff;
+    border-radius: 24px;
+}
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  #ts-{{ section.id }} .ts-card {
+    padding: 24px;
+  }
+}
+</style>
+
+<!-- ================= SWIPER CDN ================= -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+>
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+  defer
+></script>
+
+<!-- ================= JS ================= -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const section = document.querySelector('#ts-{{ section.id }}');
+  if (!section || typeof Swiper === 'undefined') return;
+
+  new Swiper(section.querySelector('.ts-swiper'), {
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 1.5,
+    spaceBetween: 0,
+    navigation: {
+      nextEl: section.querySelector('.ts-next'),
+      prevEl: section.querySelector('.ts-prev')
+    },
+    pagination: {
+      el: section.querySelector('.ts-pagination'),
+      clickable: true
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3
+      }
+    }
+  });
+});
+</script>

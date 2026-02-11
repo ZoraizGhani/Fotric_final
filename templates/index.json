@@ -1,0 +1,1095 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "block_2": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense the digital future",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "block_3": {
+          "type": "description",
+          "settings": {
+            "description": "Linking the physical and digital worlds through perception that transcends human limits."
+          }
+        },
+        "block_4": {
+          "type": "buttons",
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "block_2",
+        "block_3",
+        "block_4"
+      ],
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}",
+        "@media (max-width: 767px) {.hero__outer.hero__outer--overlay.color-background-2.hero__outer--full.hero__outer--mobile-image-overlay {height: 254px; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 26,
+        "hero_desc_width_mobile": 74,
+        "class": "headings_wiidth",
+        "layout": "overlay",
+        "header_overlay": true,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "background-2",
+        "full_screen": true,
+        "image": "shopify://shop_images/Rectangle_443.png",
+        "imagembl": "shopify://shop_images/Rectangle_240662862_1.png",
+        "show_video": false,
+        "overlay_opacity": 0,
+        "image_ratio": "21/9",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "middle",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_with_text_Nc47Ux": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "class": "",
+        "text_width_desktop": 100,
+        "text_width_mobile": 100,
+        "layout": "image_last",
+        "color_scheme": "",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "inner_subheading": "About Us",
+        "inner_heading": "Eco-Friendly & Durable choice for Hydration & Themermal Imaging",
+        "inner_heading_size": "h2",
+        "inner_heading_level": "h2",
+        "inner_heading_line": "simple",
+        "inner_line_color": "#1566e0",
+        "inner_word_break": false,
+        "description": "<p>FOTRIC delivers advanced thermal imaging solutions that help industries see beyond human vision. Our technology enables precise temperature analysis, smarter inspections, and confident decision-making in critical environments.</p>",
+        "text_align_inner": "center",
+        "image": "shopify://shop_images/FOTRIC_TK1_Minimal.png",
+        "enable_link": false,
+        "link": "",
+        "height": "adapt",
+        "overlay_opacity": 0.2,
+        "logo_width": 75,
+        "add_text": "",
+        "author_color_scheme": "",
+        "icon_size": "recommended",
+        "box_shadow": false,
+        "icon_style": "colored",
+        "show_button": true,
+        "button_label": "Learn More",
+        "button_link": "#",
+        "button_style": "primary",
+        "show_button_2": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "simple",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product_carsoul_XNmGxc": {
+      "type": "product_carsoul",
+      "name": "Products Carousel with Hero",
+      "settings": {
+        "heading": "Our Premium Products",
+        "description": "FOTRIC specializes in cutting-edge thermal and acoustic imaging technologies.",
+        "view_all_text": "View All",
+        "view_all_link": "",
+        "collection": "frontpage",
+        "heading_size_desktop": 36,
+        "desc_size_desktop": 16,
+        "desc_width_desktop": 780,
+        "view_btn_font_desktop": 16,
+        "view_btn_width_desktop": 110,
+        "view_btn_height_desktop": 36,
+        "heading_size_mobile": 26,
+        "desc_size_mobile": 14,
+        "desc_width_mobile": 100,
+        "view_btn_font_mobile": 14,
+        "view_btn_width_mobile": 100,
+        "view_btn_height_mobile": 34
+      }
+    },
+    "rich_text_B3ncwG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8QnLtA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eco-Friendly & Durable choice for Hydration & Themermal Imaging",
+            "heading_size": "medium",
+            "heading_level": "h2"
+          }
+        },
+        "text_aE3A7H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This section should be structured clearly, ensuring the reader understands the purpose and value of the content</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8QnLtA",
+        "text_aE3A7H"
+      ],
+      "custom_css": [
+        "{background: #f3f3f3;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "text_grid",
+        "color_scheme": "scheme-47348623-566c-4c24-bdf4-422ab4402815",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "multicolumn_BCkrYy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yVemNk": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330603.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Precision & Accuracy",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_qwjHJh": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330603.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Enhanced Insight",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_8PThQW": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330606.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Precision & Accuracy",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_wg6GaA": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330604.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Enhanced Insight",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_yVemNk",
+        "column_qwjHJh",
+        "column_8PThQW",
+        "column_wg6GaA"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "multicolumns_overlays  multis_columns_grid  over_hieghts",
+        "section_type": "transparent",
+        "color_scheme": "scheme-c63e98ea-52dd-4110-8f73-ebdb57929c63",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 2,
+        "content_horizontal_alignment": "center",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": false,
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "icon_size": "recommended",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "medium",
+        "image_ratio": "square",
+        "object_fit": "cover",
+        "card_heading_size": "h4",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "hero_YhC3iH": {
+      "type": "hero",
+      "blocks": {
+        "title_MdGLfg": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense the Invisible. Predict the Future.",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "description_KHfWDx": {
+          "type": "description",
+          "settings": {
+            "description": "FOTRIC’s advanced thermal and acoustic imaging solutions empower industries to detect faults early, improve safety, and optimize performance with precision technology."
+          }
+        },
+        "buttons_bVXqU3": {
+          "type": "buttons",
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Read More",
+            "button_link_1": "shopify://collections",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "title_MdGLfg",
+        "description_KHfWDx",
+        "buttons_bVXqU3"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 41,
+        "hero_desc_width_mobile": 89,
+        "class": "redmores_sense mobile_heights butns_font",
+        "layout": "overlay",
+        "header_overlay": true,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/Rectangle_140.png",
+        "imagembl": "shopify://shop_images/Rectangle_140_2.png",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "bottom",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "slider_image_with_text_CaeptE": {
+      "type": "slider_image_with_text",
+      "blocks": {
+        "slide_nL6btV": {
+          "type": "slide",
+          "settings": {
+            "heading": "EcoFriendly Practices",
+            "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
+            "button_label": "Read More",
+            "button_link": "",
+            "image": "shopify://shop_images/Rectangle_433.png"
+          }
+        },
+        "slide_z4C8xx": {
+          "type": "slide",
+          "settings": {
+            "heading": "EcoFriendly Practices",
+            "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
+            "button_label": "Read More",
+            "button_link": "",
+            "image": "shopify://shop_images/Rectangle_433.png"
+          }
+        },
+        "slide_mctBbW": {
+          "type": "slide",
+          "settings": {
+            "heading": "EcoFriendly Practices",
+            "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
+            "button_label": "Read More",
+            "button_link": "",
+            "image": "shopify://shop_images/Rectangle_433.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nL6btV",
+        "slide_z4C8xx",
+        "slide_mctBbW"
+      ],
+      "name": "Feature Slider (Swiper)",
+      "settings": {
+        "small_title": "Features",
+        "heading": "Tailored to Your Needs",
+        "description": "We're committed to offering products that make a difference.",
+        "padding_top_desktop": 55,
+        "padding_bottom_desktop": 55,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 15,
+        "section_bg_color": "#ffffff",
+        "slider_bg_color": "#f9fafb",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "button_bg_color": "#2563eb",
+        "button_text_color": "#ffffff",
+        "dot_color": "#d1d5db",
+        "dot_active_color": "#2563eb",
+        "heading_size_desktop": 36,
+        "text_size_desktop": 16,
+        "button_text_size_desktop": 16,
+        "button_width_desktop": 135,
+        "button_height_desktop": 40,
+        "desc_width_desktop": 430,
+        "heading_size_mobile": 24,
+        "text_size_mobile": 14,
+        "button_text_size_mobile": 14,
+        "button_width_mobile": 135,
+        "button_height_mobile": 40,
+        "desc_width_mobile": 500
+      }
+    },
+    "multicolumn_3ectid": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_A7GkJJ": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/solar_temperature-bold_2.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>&lt; 0.03°C</h2><h6>Thermal Sensitivity (NETD)</h6><p>Ultra-high sensitivity enables precise detection of the smallest temperature differences.</p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        },
+        "column_tix8z7": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/material-symbols_hd-outline-rounded.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>640 × 512px</h2><h6>Infrared Resolution</h6><p>High-resolution thermal sensors deliver sharper images and more accurate analysis.</p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        },
+        "column_naNDVj": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/ri_target-fill_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>±2% Accuracy</h2><h6>Temperature Measurement Precision</h6><p>Reliable readings designed for industrial, research, and professional applications.</p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        }
+      },
+      "block_order": [
+        "column_A7GkJJ",
+        "column_tix8z7",
+        "column_naNDVj"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "smaill_cion_grid",
+        "section_type": "solid",
+        "color_scheme": "",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 3,
+        "content_horizontal_alignment": "left",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": true,
+        "subheading": "Statistics",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Performance",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "<p>Discover how our products are setting new benchmarks in the world of electronics</p>",
+        "text_align": "left",
+        "icon_size": "small",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "small",
+        "image_ratio": "landscape",
+        "object_fit": "contain",
+        "card_heading_size": "h4",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_swap_hero_section_9PUGRE": {
+      "type": "image_swap_hero_section",
+      "blocks": {
+        "image_DFhNzH": {
+          "type": "image",
+          "settings": {
+            "tagline": "Precision & Accuracy",
+            "thumb": "shopify://shop_images/Rectangle_433.png",
+            "button_text": "Read More",
+            "button_link": ""
+          }
+        },
+        "image_njkMEH": {
+          "type": "image",
+          "settings": {
+            "tagline": "Precision & Accuracy",
+            "thumb": "shopify://shop_images/Group_2087330607.png",
+            "button_text": "Read More",
+            "button_link": ""
+          }
+        },
+        "image_awxq6B": {
+          "type": "image",
+          "settings": {
+            "tagline": "Precision & Accuracy",
+            "thumb": "shopify://shop_images/Group_2087330606.png",
+            "button_text": "Read More",
+            "button_link": ""
+          }
+        },
+        "image_9TVGVx": {
+          "type": "image",
+          "settings": {
+            "tagline": "Precision & Accuracys",
+            "thumb": "shopify://shop_images/Rectangle_140_1.png",
+            "button_text": "Read More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DFhNzH",
+        "image_njkMEH",
+        "image_awxq6B",
+        "image_9TVGVx"
+      ],
+      "name": "Hero Image Swap – FOTRIC",
+      "settings": {
+        "heading": "FOTRIC Advanced Thermal & Acoustic Imaging Solutions",
+        "btn_width": 134,
+        "btn_height": 44
+      }
+    },
+    "hero_PY3AVP": {
+      "type": "hero",
+      "blocks": {
+        "title_jbJ9EC": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense the Invisible. Predict the Future.",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "description_WkW6XW": {
+          "type": "description",
+          "settings": {
+            "description": "FOTRIC’s advanced thermal and acoustic imaging solutions empower industries to detect faults early, improve safety, and optimize performance with precision technology."
+          }
+        },
+        "buttons_93Gt7r": {
+          "type": "buttons",
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Read More",
+            "button_link_1": "shopify://collections",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "title_jbJ9EC",
+        "description_WkW6XW",
+        "buttons_93Gt7r"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 41,
+        "hero_desc_width_mobile": 89,
+        "class": "redmores_sense mobile_heights",
+        "layout": "overlay",
+        "header_overlay": true,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/Rectangle_140_1.png",
+        "imagembl": "shopify://shop_images/Rectangle_140_1.png",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "bottom",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "multicolumn_EH77LY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QLjche": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_444.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Precision & Accuracy",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_AfKGEH": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_445.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Enhanced Insight",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_afePcA": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_446.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Precision & Accuracy",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_8qXWXD": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330604.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Enhanced Insight",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_QLjche",
+        "column_AfKGEH",
+        "column_afePcA",
+        "column_8qXWXD"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "multicolumns_overlays multis_columns_grid",
+        "section_type": "transparent",
+        "color_scheme": "scheme-c63e98ea-52dd-4110-8f73-ebdb57929c63",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 3,
+        "content_horizontal_alignment": "center",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": true,
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "FOTRIC Solutions for Industrial Applications",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "<p>FOTRIC specializes in cutting-edge thermal and acoustic imaging technologies designed to enhance predictive maintenance, safety inspections, and energy efficiency across various industries.</p>",
+        "text_align": "left",
+        "icon_size": "recommended",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "medium",
+        "image_ratio": "square",
+        "object_fit": "cover",
+        "card_heading_size": "h4",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_PNCXnk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_bJ9fYq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Testimonials"
+          }
+        },
+        "heading_PT6YDw": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Our Users Say",
+            "heading_size": "medium",
+            "heading_level": "h2"
+          }
+        },
+        "text_Kk6Rjt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the genuine experiences and feedback directly from our users.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bJ9fYq",
+        "heading_PT6YDw",
+        "text_Kk6Rjt"
+      ],
+      "custom_css": [
+        "{background: #f3f3f3;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "testmonail_slider",
+        "color_scheme": "scheme-47348623-566c-4c24-bdf4-422ab4402815",
+        "full_width": true,
+        "alignment": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "testimonials_carousel_rhfAJ4": {
+      "type": "testimonials-carousel",
+      "blocks": {
+        "testimonial_rKFzie": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_V9WDhH": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_EMGCn3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_gLD6YX": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_RabGi7": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_rKFzie",
+        "testimonial_V9WDhH",
+        "testimonial_EMGCn3",
+        "testimonial_gLD6YX",
+        "testimonial_RabGi7"
+      ],
+      "name": "Testimonials Carousel (Center)",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "multicolumn_MKJPBQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LRnAWz": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/main_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "FOTRIC Unveils TD2 Sense Acoustic Imaging Module: Compact, Intelligent Acoustics for Robotics and Standalone Monitoring",
+            "text": "<p>Jan 2, 2026</p><p><strong>FOTRIC proudly unveils the TD2 sense Acoustic Imaging Module</strong> — a breakthrough in compact acoustic sensing that redefines how sound intelligence can be embedded into robotics and fixed monitoring systems. Powered by a<strong>64-microphone array</strong>, the TD2 sense delivers exceptional acoustic precision in a<strong>91 × 87 × 50 mm</strong> form factor, weighing just<strong>420g</strong>— making it one of the most powerful and portable acoustic modules ever designed.</p>",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "shopify://blogs/news/fotric-unveils-td2-sense-acoustic-imaging-module-compact-intelligent-acoustics-for-robotics-and-standalone-monitoring",
+            "button_style": "primary"
+          }
+        },
+        "column_AnXagd": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/main_FOTRIC_TK6_Thermal_Imaging_Camera_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Spot Hidden Moisture Before It Becomes Costly—Meet the FOTRIC TK-series Thermal Camera!",
+            "text": "<p>Jan 2, 2026</p><p>Moisture problems often go unnoticed in home and HVAC inspections—until they escalate into visible water damage, leading to costly repairs and long-term structural issues. But what if you could catch these hidden problems before they cause damage?</p>",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "shopify://blogs/news/spot-hidden-moisture-before-it-becomes-costly-meet-the-fotric-tk-series-thermal-camera",
+            "button_style": "primary"
+          }
+        },
+        "column_xaVXWB": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_476.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "FOTRIC Launches TK6: True 384×288 Thermal Camera with Ceramic-Packaged Detector, Manual Focus, and 3.5” HD Display",
+            "text": "<p>Jan 2, 2026</p><p>FOTRIC proudly announces the launch of the TK6 Handheld Thermal Imaging Camera, a new addition to its professional inspection portfolio. Built for engineers and technicians who demand true performance beyond consumer-grade devices, the TK6 combines true 384×288 infrared resolution, ceramic-packaged reliability, and manual focus precision—setting a new standard for professional thermal imaging accessibility.</p>",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "shopify://blogs/news/fotric-launches-tk6-true-384-288-thermal-camera-with-ceramic-packaged-detector-manual-focus-and-3-5-hd-display",
+            "button_style": "primary"
+          }
+        },
+        "column_JJdmVT": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Group_2087330604.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Enhanced Insight",
+            "text": "",
+            "show_button": true,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_LRnAWz",
+        "column_AnXagd",
+        "column_xaVXWB",
+        "column_JJdmVT"
+      ],
+      "custom_css": [
+        "h3.multicolumn-card__heading.h4 {display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; line-height: 116% !important;}",
+        "p {display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;}",
+        ".multicolumn-card__image-wrapper--square {background: #f3f3f3f3; aspect-ratio: 1 / 1 !important; height: 308px; object-fit: contain; object-position: top !important;}"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "multis_columns_grid   gaps_space",
+        "section_type": "transparent",
+        "color_scheme": "background-2",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 3,
+        "content_horizontal_alignment": "left",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": true,
+        "subheading": "News",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Guides & News",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "<p>Top-selling tech essentials, trusted by customers for quality and performance.</p>",
+        "text_align": "left",
+        "icon_size": "recommended",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "medium",
+        "image_ratio": "square",
+        "object_fit": "cover",
+        "card_heading_size": "h4",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "hero_x479hT": {
+      "type": "hero",
+      "blocks": {
+        "title_bxTrJt": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense the Invisible. Predict the Future.",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "description_mHPE6g": {
+          "type": "description",
+          "settings": {
+            "description": "FOTRIC’s advanced thermal and acoustic imaging solutions empower industries to detect faults early, improve safety, and optimize performance with precision technology."
+          }
+        },
+        "buttons_JQP9dG": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Read More",
+            "button_link_1": "shopify://collections",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "title_bxTrJt",
+        "description_mHPE6g",
+        "buttons_JQP9dG"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 35,
+        "hero_desc_width_mobile": 100,
+        "class": "redmores_sense  mobile_heights",
+        "layout": "overlay",
+        "header_overlay": true,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/Rectangle_140_2.png",
+        "imagembl": "shopify://shop_images/Rectangle_140.png",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "middle",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "image_with_text_Nc47Ux",
+    "product_carsoul_XNmGxc",
+    "rich_text_B3ncwG",
+    "multicolumn_BCkrYy",
+    "hero_YhC3iH",
+    "slider_image_with_text_CaeptE",
+    "multicolumn_3ectid",
+    "image_swap_hero_section_9PUGRE",
+    "hero_PY3AVP",
+    "multicolumn_EH77LY",
+    "rich_text_PNCXnk",
+    "testimonials_carousel_rhfAJ4",
+    "multicolumn_MKJPBQ",
+    "hero_x479hT"
+  ]
+}

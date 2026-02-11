@@ -1,0 +1,964 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_y37JwE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LXd39e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Home . </strong> Products</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LXd39e"
+      ],
+      "custom_css": [
+        ".richbedcrumes p {font-size: 16px !important;}",
+        "strong {color: #0000004d !important; font-weight: 500 !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "richbedcrumes",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h3"
+          }
+        },
+        "text_AzDFYj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}{{ product.metafields.custom.short_description.value }}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "description": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "rivyo_product_reviews_wc_product_review_badge_B7HP4E": {
+          "type": "shopify://apps/rivyo-product-reviews/blocks/wc-product-review-badge/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "unavailable_options_clickable": false
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "title": "Select Option",
+            "bundle_products": [
+              "fotric-ti5-thermal-imaging-camera",
+              "fotric-ti7-thermal-imaging-camera",
+              "fotric-tk6-thermal-imaging-camera"
+            ],
+            "show_dynamic_checkout": false,
+            "show_quantity": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "disabled": true,
+          "settings": {}
+        },
+        "49b2a417-bcd6-4fb2-8f48-342f0981d93b": {
+          "type": "dropdown_information",
+          "settings": {
+            "show_faq": false,
+            "question_1": "What Does FOTRIC Specialize In?",
+            "answer_1": "<p>FOTRIC develops professional thermal and acoustic imaging solutions for industrial and inspection applications.</p>",
+            "question_2": "Who Can Use FOTRIC Thermal Cameras?",
+            "answer_2": "<p>FOTRIC thermal cameras are suitable for engineers, electricians, maintenance teams, researchers, and industrial inspection professionals.</p>",
+            "question_3": "Do FOTRIC Cameras Support Software And Mobile Apps?",
+            "answer_3": "<p>Yes, FOTRIC cameras support PC software and mobile applications for analysis, reporting, and real-time monitoring.</p>",
+            "question_4": "Does FOTRIC Provide Technical Support And Updates?",
+            "answer_4": "<p>FOTRIC provides professional technical support, firmware updates, and continuous software improvements.</p>",
+            "characteristics": false,
+            "heading": "Specification",
+            "description": "{{ product.description }}",
+            "button_show": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "3d90d6b7-fca8-4b1b-b52f-4a46362d3873": {
+          "type": "dropdown_information",
+          "settings": {
+            "show_faq": true,
+            "question_1": "What Does FOTRIC Specialize In?",
+            "answer_1": "<p>FOTRIC develops professional thermal and acoustic imaging solutions for industrial and inspection applications.</p>",
+            "question_2": "Who Can Use FOTRIC Thermal Cameras?",
+            "answer_2": "<p>FOTRIC thermal cameras are suitable for engineers, electricians, maintenance teams, researchers, and industrial inspection professionals.</p>",
+            "question_3": "Do FOTRIC Cameras Support Software And Mobile Apps?",
+            "answer_3": "<p>Yes, FOTRIC cameras support PC software and mobile applications for analysis, reporting, and real-time monitoring.</p>",
+            "question_4": "Does FOTRIC Provide Technical Support And Updates?",
+            "answer_4": "<p>FOTRIC provides professional technical support, firmware updates, and continuous software improvements.</p>",
+            "characteristics": false,
+            "heading": "FAQS",
+            "description": "",
+            "button_show": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "default_open": false
+          }
+        },
+        "text_with_icon_HiDPmT": {
+          "type": "text_with_icon",
+          "settings": {
+            "show_text_with_icon_1": true,
+            "icon_1": "battery-1",
+            "text_1": "Free Shipping",
+            "show_text_with_icon_2": true,
+            "icon_2": "battery-2",
+            "text_2": "30-Day Return Policy",
+            "box_shadow": true,
+            "icon_style": "colored",
+            "icon_fill_type": "gradient"
+          }
+        },
+        "text_with_icon_BfkRDe": {
+          "type": "text_with_icon",
+          "settings": {
+            "show_text_with_icon_1": true,
+            "icon_1": "battery-3",
+            "text_1": "1-Year Warranty",
+            "show_text_with_icon_2": true,
+            "icon_2": "book",
+            "text_2": "24/7 Customer Support",
+            "box_shadow": true,
+            "icon_style": "colored",
+            "icon_fill_type": "gradient"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_AzDFYj",
+        "description",
+        "price",
+        "rivyo_product_reviews_wc_product_review_badge_B7HP4E",
+        "variant_picker",
+        "inventory",
+        "buy_buttons",
+        "pickup_availability",
+        "49b2a417-bcd6-4fb2-8f48-342f0981d93b",
+        "3d90d6b7-fca8-4b1b-b52f-4a46362d3873",
+        "text_with_icon_HiDPmT",
+        "text_with_icon_BfkRDe"
+      ],
+      "settings": {
+        "desktop_alignment": "right",
+        "mobile_alignment": "before",
+        "gallery_type": "slider_previews",
+        "variant_media_display": "show_all",
+        "aspect_ratio": "5/4",
+        "image_fit": "contain",
+        "image_fit_modal": "contain",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "video_slider_DECcaG": {
+      "type": "video_slider",
+      "blocks": {
+        "review_VAm6WN": {
+          "type": "review",
+          "settings": {
+            "youtube_link": "https://www.youtube.com/watch?v=thab11AZijA",
+            "description": "Fotric 348A Professional Thermal Imaging Camera",
+            "views": "35,756 views",
+            "author_name": "ProjectAlex",
+            "author_avatar": "shopify://shop_images/Ellipse_233.png"
+          }
+        },
+        "review_Nmx7GY": {
+          "type": "review",
+          "settings": {
+            "youtube_link": "https://www.youtube.com/watch?v=thab11AZijA",
+            "description": "Fotric 348A Professional Thermal Imaging Camera",
+            "views": "35,756 views",
+            "author_name": "ProjectAlex",
+            "author_avatar": "shopify://shop_images/Ellipse_233.png"
+          }
+        },
+        "review_zNkXzK": {
+          "type": "review",
+          "settings": {
+            "youtube_link": "https://www.youtube.com/watch?v=thab11AZijA",
+            "description": "Fotric 348A Professional Thermal Imaging Camera",
+            "views": "35,756 views",
+            "author_name": "ProjectAlex",
+            "author_avatar": "shopify://shop_images/Ellipse_233.png"
+          }
+        },
+        "review_pdkVXp": {
+          "type": "review",
+          "settings": {
+            "youtube_link": "https://www.youtube.com/watch?v=thab11AZijA",
+            "description": "Fotric 348A Professional Thermal Imaging Camera",
+            "views": "35,756 views",
+            "author_name": "ProjectAlex",
+            "author_avatar": "shopify://shop_images/Ellipse_233.png"
+          }
+        },
+        "review_nQUG98": {
+          "type": "review",
+          "settings": {
+            "youtube_link": "https://www.youtube.com/watch?v=thab11AZijA",
+            "description": "Fotric 348A Professional Thermal Imaging Camera",
+            "views": "35,756 views",
+            "author_name": "ProjectAlex",
+            "author_avatar": "shopify://shop_images/Ellipse_233.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_VAm6WN",
+        "review_Nmx7GY",
+        "review_zNkXzK",
+        "review_pdkVXp",
+        "review_nQUG98"
+      ],
+      "name": "Projector Reviews Carousel",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "1770158105d2061811": {
+      "type": "apps",
+      "blocks": {
+        "rivyo_product_reviews_wc_review_section_nzPkkW": {
+          "type": "shopify://apps/rivyo-product-reviews/blocks/wc-review-section/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "rivyo_product_reviews_wc_review_section_nzPkkW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_qTFr7K": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_nNg9br": {
+      "type": "hero",
+      "blocks": {
+        "title_GtwNPE": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense the Invisible. Predict the Future.",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "description_rfAfGc": {
+          "type": "description",
+          "settings": {
+            "description": "FOTRIC’s advanced thermal and acoustic imaging solutions empower industries to detect faults early, improve safety, and optimize performance with precision technology."
+          }
+        },
+        "buttons_F4XYCW": {
+          "type": "buttons",
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Read More",
+            "button_link_1": "shopify://collections",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "title_GtwNPE",
+        "description_rfAfGc",
+        "buttons_F4XYCW"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 41,
+        "hero_desc_width_mobile": 89,
+        "class": "redmores_sense mobile_heights butns_font",
+        "layout": "overlay",
+        "header_overlay": true,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/Rectangle_140.png",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "bottom",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_with_text_7HTqGX": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; font-size: 18px !important; height: 53px !important; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "class": "image_pdp rightsss",
+        "text_width_desktop": 59,
+        "text_width_mobile": 100,
+        "layout": "text_last",
+        "color_scheme": "background-1",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "inner_subheading": "",
+        "inner_heading": "Real Sensor",
+        "inner_heading_size": "h2",
+        "inner_heading_level": "h2",
+        "inner_heading_line": "simple",
+        "inner_line_color": "#1566e0",
+        "inner_word_break": false,
+        "description": "<ul><li><strong>A ceramic-packaged detector, professional benchmark for accuracy and detail</strong></li><li><strong>A true 384×288 infrared detector, ensuring durability, accuracy, and reliability in demanding industrial environments</strong></li><li><strong>A 17 µm pixel-pitch detector, that results in a stronger signal-to-noise ratio and sharper, highercontrast thermal images</strong></li></ul>",
+        "text_align_inner": "center",
+        "image": "shopify://shop_images/Rectangle_433_1.png",
+        "enable_link": false,
+        "link": "",
+        "height": "adapt",
+        "overlay_opacity": 0.2,
+        "logo_width": 75,
+        "add_text": "",
+        "author_color_scheme": "",
+        "icon_size": "recommended",
+        "box_shadow": false,
+        "icon_style": "colored",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "#",
+        "button_style": "primary",
+        "show_button_2": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "simple",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_ywaDra": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; font-size: 18px !important; height: 53px !important; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "class": "image_pdp left_images",
+        "text_width_desktop": 62,
+        "text_width_mobile": 100,
+        "layout": "image_last",
+        "color_scheme": "background-1",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "inner_subheading": "",
+        "inner_heading": "Real Focus",
+        "inner_heading_size": "h2",
+        "inner_heading_level": "h2",
+        "inner_heading_line": "simple",
+        "inner_line_color": "#1566e0",
+        "inner_word_break": false,
+        "description": "<ul><li><strong>A hallmark of professional imagers, makes true professional imaging achievable for every technician</strong></li><li><strong>Enables users to achieve precise clarity across varying distances, ensuring accurate temperature readings</strong></li><li><strong>With a minimum imaging distance of 0.15m, it can even clearly reflect the temperature of a PCB</strong></li></ul>",
+        "text_align_inner": "center",
+        "image": "shopify://shop_images/Rectangle_471.png",
+        "enable_link": false,
+        "link": "",
+        "height": "adapt",
+        "overlay_opacity": 0.2,
+        "logo_width": 75,
+        "add_text": "",
+        "author_color_scheme": "",
+        "icon_size": "recommended",
+        "box_shadow": false,
+        "icon_style": "colored",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "#",
+        "button_style": "primary",
+        "show_button_2": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "simple",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_4dfbCC": {
+      "type": "image-with-text",
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; font-size: 18px !important; height: 53px !important; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "class": "image_pdp rightsss",
+        "text_width_desktop": 70,
+        "text_width_mobile": 100,
+        "layout": "text_last",
+        "color_scheme": "background-1",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "inner_subheading": "",
+        "inner_heading": "Real Professional",
+        "inner_heading_size": "h2",
+        "inner_heading_level": "h2",
+        "inner_heading_line": "simple",
+        "inner_line_color": "#1566e0",
+        "inner_word_break": false,
+        "description": "<ul><li><strong>With an IFOV of 1.14 mrad, it's capable of capturing finer temperature differences and achieving more accurate imaging</strong></li><li><strong>5-megapixel industrial-grade digital camera; Images will remain clear even in report</strong></li><li><strong>3.5-inch IPS LED touchscreen display with Gorilla explosion-proof glass</strong></li></ul>",
+        "text_align_inner": "center",
+        "image": "shopify://shop_images/Rectangle_473.png",
+        "enable_link": false,
+        "link": "",
+        "height": "adapt",
+        "overlay_opacity": 0.2,
+        "logo_width": 75,
+        "add_text": "",
+        "author_color_scheme": "",
+        "icon_size": "recommended",
+        "box_shadow": false,
+        "icon_style": "colored",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "#",
+        "button_style": "primary",
+        "show_button_2": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_style_2": "simple",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn_7ChwCH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rjUnqj": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_444_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "T-DEF® Blend Mode",
+            "text": "<p>Exclusive T-DEF® visible-light temperature measurement with infrared transparency adjustable from 0%–100%, automatically aligned with IR imaging.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_3BEEwj": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_445_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Ultra-close Imaging",
+            "text": "<p>Imaging from as close as 0.15 m, ideal for PCBs, electrical connection points, and precision components, breaking the conventional thermal camera application limits.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_YqQkGi": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_446_1.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Measurement Parameter Compensation",
+            "text": "<p>Full parameter correction including emissivity,ambient temperature, reflected temperature,and IR window ransmittance, ensuring researchgrade measurement accuracy.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_LPAwqk": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_474.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "High Refresh Rate",
+            "text": "<p>30 Hz high-frame-rate real-time imaging, smooth and lag-free, capturing transient temperature rises and dynamic targets.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_RyErEk": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_475.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Versatile Measurement Tools",
+            "text": "<p>Supports 20 measurement points, 10 measurement boxes, and 10 measurement lines, covering complex scenes far beyond comparable products.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        },
+        "column_7rXFdt": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+            "icon_fill_type": "gradient",
+            "image": "shopify://shop_images/Rectangle_476.png",
+            "enable_link": false,
+            "link": "",
+            "heading": "Made for Continuous Operation",
+            "text": "<p>≥ 4 hours battery life, 2.5 h fast charge to 90%, supports USB-C external power for uninterrupted, all-day operation.</p>",
+            "show_button": false,
+            "button_label": "Read More",
+            "button_link": "#",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_rjUnqj",
+        "column_3BEEwj",
+        "column_YqQkGi",
+        "column_LPAwqk",
+        "column_RyErEk",
+        "column_7rXFdt"
+      ],
+      "custom_css": [
+        ".titles + .content {margin-top: 0;}",
+        "@media (max-width: 767px) {h2.h2.multicolumn__title.title.title--simple.js-anim-none {margin-top: 4.8rem !important; }}"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "multis_columns_grid   gaps_space",
+        "section_type": "transparent",
+        "color_scheme": "background-1",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 3,
+        "content_horizontal_alignment": "left",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": true,
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Six Professional Edges",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "icon_size": "recommended",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "medium",
+        "image_ratio": "square",
+        "object_fit": "cover",
+        "card_heading_size": "h4",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_jgJFy4": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Dw7aAD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Testimonials"
+          }
+        },
+        "heading_PDrgxA": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Our Users Say",
+            "heading_size": "medium",
+            "heading_level": "h2"
+          }
+        },
+        "text_4Q8wzE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the genuine experiences and feedback directly from our users.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Dw7aAD",
+        "heading_PDrgxA",
+        "text_4Q8wzE"
+      ],
+      "custom_css": [
+        "{background: #f3f3f3;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "testmonail_slider",
+        "color_scheme": "scheme-47348623-566c-4c24-bdf4-422ab4402815",
+        "full_width": true,
+        "alignment": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "testimonials_carousel_7CqPKM": {
+      "type": "testimonials-carousel",
+      "blocks": {
+        "testimonial_yrMTMU": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_Bbj77i": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_VGPUjt": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_8k8Ja3": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        },
+        "testimonial_3ipRip": {
+          "type": "testimonial",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "imageavtor": "shopify://shop_images/Ellipse_6.png",
+            "author": "Sara JEF"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_yrMTMU",
+        "testimonial_Bbj77i",
+        "testimonial_VGPUjt",
+        "testimonial_8k8Ja3",
+        "testimonial_3ipRip"
+      ],
+      "name": "Testimonials Carousel (Center)",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Recently View",
+        "heading_size": "h2",
+        "text": "",
+        "products_limit": 9,
+        "image_ratio": "3/2",
+        "image_fit": "contain",
+        "add_border_radius_when_contain": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_desc": true,
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "rich_text_eq76wC": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "recent_view_7ftCVE": {
+      "type": "recent_view",
+      "blocks": {
+        "product_QAKVY6": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        },
+        "product_mVFNUT": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-geek-acoustic-imaging-camera"
+          }
+        },
+        "product_wrhbUd": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-ti7-thermal-imaging-camera"
+          }
+        },
+        "product_eWb6CA": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-ti7-thermal-imaging-camera"
+          }
+        },
+        "product_jUBD4y": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-ti7-thermal-imaging-camera"
+          }
+        },
+        "product_agVigg": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-ti7-thermal-imaging-camera"
+          }
+        }
+      },
+      "block_order": [
+        "product_QAKVY6",
+        "product_mVFNUT",
+        "product_wrhbUd",
+        "product_eWb6CA",
+        "product_jUBD4y",
+        "product_agVigg"
+      ],
+      "name": "Recently Viewed Slider",
+      "settings": {
+        "title": "Recently Viewed"
+      }
+    },
+    "recent_view_gNDd8y": {
+      "type": "recent_view",
+      "blocks": {
+        "product_EKGyJT": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        },
+        "product_REx86t": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        },
+        "product_HW9Nfn": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        },
+        "product_ghkCha": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        },
+        "product_KBQqcW": {
+          "type": "product",
+          "settings": {
+            "product": "fotric-td2-acoustic-imager"
+          }
+        }
+      },
+      "block_order": [
+        "product_EKGyJT",
+        "product_REx86t",
+        "product_HW9Nfn",
+        "product_ghkCha",
+        "product_KBQqcW"
+      ],
+      "disabled": true,
+      "name": "Recently Viewed Products",
+      "settings": {
+        "title": "Recently Viewed"
+      }
+    },
+    "rich_text_CaERdk": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "rich_text_y37JwE",
+    "main",
+    "video_slider_DECcaG",
+    "1770158105d2061811",
+    "rich_text_qTFr7K",
+    "hero_nNg9br",
+    "image_with_text_7HTqGX",
+    "image_with_text_ywaDra",
+    "image_with_text_4dfbCC",
+    "multicolumn_7ChwCH",
+    "rich_text_jgJFy4",
+    "testimonials_carousel_7CqPKM",
+    "product-recommendations",
+    "rich_text_eq76wC",
+    "recent_view_7ftCVE",
+    "recent_view_gNDd8y",
+    "rich_text_CaERdk"
+  ]
+}

@@ -1,0 +1,22 @@
+<div class="{% if request.page_type != 'cart' %}header__cart {% else %} header__cart--page{% endif %}">
+  <a
+    href="{{ routes.cart_url }}"
+    class=" header__icon header__icon--cart link link--text focus-inset"
+    id="cart-icon-bubble"
+  >
+    {% comment %} {% render 'icon-cart' %} {% endcomment %}
+
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.66699 9.99992V6.66659C6.66699 5.78253 7.01818 4.93468 7.6433 4.30956C8.26842 3.68444 9.11627 3.33325 10.0003 3.33325C10.8844 3.33325 11.7322 3.68444 12.3573 4.30956C12.9825 4.93468 13.3337 5.78253 13.3337 6.66659V9.99992" stroke="black" stroke-width="1.375" stroke-linecap="round"/>
+<path d="M3.07819 10.5567C3.19902 9.10583 3.25985 8.38083 3.73819 7.94C4.21652 7.49917 4.94485 7.5 6.40069 7.5H13.5999C15.0549 7.5 15.7832 7.5 16.2615 7.94C16.7399 8.38 16.8007 9.10583 16.9215 10.5567L17.3499 15.695C17.4199 16.5392 17.4549 16.9617 17.2082 17.2308C16.9599 17.5 16.5365 17.5 15.6882 17.5H4.31152C3.46402 17.5 3.03985 17.5 2.79235 17.2308C2.54485 16.9617 2.57985 16.5392 2.65069 15.695L3.07819 10.5567Z" stroke="black" stroke-width="1.375"/>
+</svg>
+
+    <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+    <div class="cart-count-bubble">
+      <span aria-hidden="true">{{ cart.item_count }}</span>
+      <span class="visually-hidden">
+        {{- 'sections.header.cart_count' | t: count: cart.item_count -}}
+      </span>
+    </div>
+  </a>
+</div>

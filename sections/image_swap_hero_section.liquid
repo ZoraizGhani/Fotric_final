@@ -1,0 +1,265 @@
+<section id="hero-swap-{{ section.id }}" class="hero-swap container">
+    <h2 class="hero-title">{{ section.settings.heading }}</h2>
+  
+    <div class="hero-gallery">
+      {% for block in section.blocks %}
+        <div class="hero-block {% if forloop.first %}is-main active{% else %}is-thumb{% endif %}">
+          <img
+            src="{{ block.settings.thumb | image_url }}"
+            alt="Hero image">
+  
+          {% if block.settings.button_text != blank %}
+            <div class="hero-overlay">
+              <span class="hero-tagline">{{ block.settings.tagline }}</span>
+              <a href="{{ block.settings.button_link }}" class="hero-btn button">
+                {{ block.settings.button_text }}
+              </a>
+
+              <svg class="class_no_active" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="20" fill="white"/>
+                <path d="M25 20.0999H15M25 20.0999L20.7143 24.1997M25 20.0999L20.7143 16" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  
+  <style>
+  /* ================= BASE ================= */
+  .hero-gallery {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .hero-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: flex 0.4s ease;
+  }
+  
+  .hero-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero-block a.hero-btn.button {
+    display: none;
+}
+
+.hero-block.active a.hero-btn.button {
+    display: flex !important;
+}
+h2.hero-title {
+    max-width: 646px;
+}
+@media (min-width: 769px) {
+
+  .hero-gallery {
+  
+    height: calc(560 / 1920 * 100vw);
+}
+    .hero-block {
+        flex: 0.26 ;
+        /* height: 220px; */
+    }
+    span.hero-tagline {
+        font-size: 22px;
+    }
+    
+}
+.hero-block.active svg {
+    display: none !important;
+}
+.hero-block.active span.hero-tagline {
+    font-size: 22px;
+    display:block !important;
+}
+
+span.hero-tagline {
+    font-size: 22px;
+    display:none ;
+}
+.hero-overlay {
+ 
+    justify-content: center;
+  
+}
+
+.hero-block.active  .hero-overlay {
+  
+    justify-content: space-between !important;
+   
+}
+
+  /* ================= DESKTOP ================= */
+  @media (min-width: 769px) {
+
+   
+ 
+    /* ONLY active stretches */
+    .hero-block.active {
+      flex: 2;
+    }
+  }
+  
+  /* ================= OVERLAY ================= */
+  .hero-overlay {
+    position: absolute;
+    bottom: 22px;
+    left: 25px;
+    right: 20px;
+    display: flex;
+  
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero-btn {
+    background: #0a5bff;
+    color: #fff;
+    width: {{ section.settings.btn_width }}px;
+    height: {{ section.settings.btn_height }}px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+  }
+  
+  /* ================= MOBILE ================= */
+  @media (max-width: 768px) {
+    .hero-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  
+    .hero-block.is-main {
+      grid-column: 1 / -1;
+      height: 260px;
+    }
+  
+    .hero-block.is-thumb {
+      height: 43px !important;
+    }
+  }
+  </style>
+  <script>
+    (function () {
+      const section = document.querySelector('#hero-swap-{{ section.id }}');
+      if (!section) return;
+    
+      const blocks = Array.from(section.querySelectorAll('.hero-block'));
+    
+      /* ========= DESKTOP ACTIVE LOGIC ========= */
+      blocks.forEach(block => {
+        block.addEventListener('mouseenter', () => {
+          if (window.innerWidth <= 768) return;
+    
+          blocks.forEach(b => b.classList.remove('active'));
+          block.classList.add('active');
+        });
+      });
+    
+      /* ========= MOBILE SWAP LOGIC ========= */
+      blocks.forEach(block => {
+        block.addEventListener('click', () => {
+          if (window.innerWidth > 768) return;
+          if (block.classList.contains('is-main')) return;
+    
+          const main = section.querySelector('.hero-block.is-main');
+    
+          /* images */
+          const mainImg = main.querySelector('img');
+          const thumbImg = block.querySelector('img');
+    
+          /* overlay CONTENT */
+          const mainOverlay = main.querySelector('.hero-overlay');
+          const thumbOverlay = block.querySelector('.hero-overlay');
+    
+          /* swap images */
+          const tempImgSrc = mainImg.src;
+          mainImg.src = thumbImg.src;
+          thumbImg.src = tempImgSrc;
+    
+          /* swap overlay content */
+          if (mainOverlay && thumbOverlay) {
+            const tempOverlayHTML = mainOverlay.innerHTML;
+            mainOverlay.innerHTML = thumbOverlay.innerHTML;
+            thumbOverlay.innerHTML = tempOverlayHTML;
+          }
+        });
+      });
+    })();
+    </script>
+    
+    
+  {% comment %} <script>
+  (function () {
+    const section = document.querySelector('#hero-swap-{{ section.id }}');
+    if (!section) return;
+  
+    const blocks = Array.from(section.querySelectorAll('.hero-block'));
+  
+    /* ========= DESKTOP ACTIVE LOGIC ========= */
+    blocks.forEach(block => {
+      block.addEventListener('mouseenter', () => {
+        if (window.innerWidth <= 768) return;
+  
+        blocks.forEach(b => b.classList.remove('active'));
+        block.classList.add('active');
+      });
+    });
+  
+    /* ========= MOBILE SWAP LOGIC ========= */
+    blocks.forEach(block => {
+      block.addEventListener('click', () => {
+        if (window.innerWidth > 768) return;
+        if (block.classList.contains('is-main')) return;
+  
+        const main = section.querySelector('.hero-block.is-main');
+        const mainImg = main.querySelector('img');
+        const thumbImg = block.querySelector('img');
+  
+        const tempSrc = mainImg.src;
+        mainImg.src = thumbImg.src;
+        thumbImg.src = tempSrc;
+      });
+    });
+  })();
+  </script> {% endcomment %}
+  
+  {% schema %}
+  {
+    "name": "Hero Image Swap Gallery",
+    "class": "hero-swaps ",
+    "settings": [
+      { "type": "text", "id": "heading", "label": "Heading", "default": "Advanced Thermal Imaging Solutions" },
+     
+   
+      { "type": "range", "id": "btn_width", "label": "Button width", "min": 80, "max": 260, "step": 2, "default": 120 },
+      { "type": "range", "id": "btn_height", "label": "Button height", "min": 32, "max": 80, "step": 4, "default": 40 }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+
+            { "type": "text", "id": "tagline", "label": "Tagline", "default": "Precision & Accuracy" },
+          { "type": "image_picker", "id": "thumb", "label": "Image" },
+          { "type": "text", "id": "button_text", "label": "Button text", "default": "Read More" },
+          { "type": "url", "id": "button_link", "label": "Button link" },
+        ]
+      }
+    ],
+    "presets": [
+      { "name": "Hero Image Swap (Desktop Persistent Active)" }
+    ]
+  }
+  {% endschema %}
+  

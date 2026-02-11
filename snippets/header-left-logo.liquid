@@ -1,0 +1,41 @@
+{%- if section.settings.menu != blank -%}
+  {% render 'header-drawer', section: section %}
+{%- endif -%}
+
+{% render 'header-logo', tag: 'h1' %}
+
+{% render 'header-inline-menu', section: section %}
+
+<div class="header__column">
+  <div class="header__icons">
+		{% render 'color-scheme' %}
+		
+    {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+      {% render 'header-localization' %}
+    {%- endif -%}
+
+    {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
+      {% render 'header-language' %}
+    {%- endif -%}
+
+    {%- if section.settings.enable_search -%}
+      {% render 'header-search', section: section %}
+
+     <a class="add-to-comparable" href="/pages/compare-product">
+        <span class="add-to-comparison-label"><svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4785 23.9444L19.4228 22.0001L16.27 18.8473H27.5V16.0972H16.27L19.4228 12.9444L17.4785 11.0001L11 17.4722L17.4785 23.9444ZM10.021 0L16.5 6.47225L10.021 12.9443L8.07668 11L11.2294 7.84723H0V5.09721H11.2296L8.07668 1.94429L10.021 0Z" fill="black"/>
+          </svg>
+          </span>
+        <span class="in-comparison-label"><svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4785 23.9444L19.4228 22.0001L16.27 18.8473H27.5V16.0972H16.27L19.4228 12.9444L17.4785 11.0001L11 17.4722L17.4785 23.9444ZM10.021 0L16.5 6.47225L10.021 12.9443L8.07668 11L11.2294 7.84723H0V5.09721H11.2296L8.07668 1.94429L10.021 0Z" fill="black"/>
+          </svg>
+          </span>
+        </a> 
+    {%- endif -%}
+    {%- if shop.customer_accounts_enabled -%}
+      {% render 'header-account' %}
+    {%- endif -%}
+
+    {% render 'header-cart' %}
+  </div>
+</div>

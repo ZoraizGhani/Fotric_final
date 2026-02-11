@@ -1,0 +1,215 @@
+{% schema %}
+{
+  "name": "Recently Viewed ",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Recently Viewed"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select product"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "Recently Viewed Slider",
+      "category": "Products"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="recent-section">
+    <div class="container">
+        <div class="haeder_recent">
+  <h2 class="recent-section-title">
+    {{ section.settings.title }}
+  </h2>
+  <div class="navagtion_conatiner">
+  <div class="nagat swiper-button-prev"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="40" rx="20" transform="matrix(-1 0 0 1 40 0)" fill="#1566E0"/>
+    <path d="M22.7075 13.6365C22.895 13.8241 23.0003 14.0784 23.0003 14.3435C23.0003 14.6087 22.895 14.863 22.7075 15.0505L17.7575 20.0005L22.7075 24.9505C22.8897 25.1391 22.9905 25.3917 22.9882 25.6539C22.9859 25.9161 22.8808 26.1669 22.6954 26.3524C22.5099 26.5378 22.2591 26.6429 21.9969 26.6452C21.7347 26.6475 21.4821 26.5467 21.2935 26.3645L15.6365 20.7075C15.4491 20.52 15.3438 20.2657 15.3438 20.0005C15.3438 19.7354 15.4491 19.4811 15.6365 19.2935L21.2935 13.6365C21.4811 13.4491 21.7354 13.3438 22.0005 13.3438C22.2657 13.3438 22.52 13.4491 22.7075 13.6365Z" fill="white"/>
+    </svg>
+    </div>
+<div class="nagat swiper-button-next"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="40" rx="20" fill="#1566E0"/>
+    <path d="M17.2925 13.6365C17.105 13.8241 16.9997 14.0784 16.9997 14.3435C16.9997 14.6087 17.105 14.863 17.2925 15.0505L22.2425 20.0005L17.2925 24.9505C17.1103 25.1391 17.0095 25.3917 17.0118 25.6539C17.0141 25.9161 17.1192 26.1669 17.3046 26.3524C17.4901 26.5378 17.7409 26.6429 18.0031 26.6452C18.2653 26.6475 18.5179 26.5467 18.7065 26.3645L24.3635 20.7075C24.5509 20.52 24.6562 20.2657 24.6562 20.0005C24.6562 19.7354 24.5509 19.4811 24.3635 19.2935L18.7065 13.6365C18.5189 13.4491 18.2646 13.3438 17.9995 13.3438C17.7343 13.3438 17.48 13.4491 17.2925 13.6365Z" fill="white"/>
+    </svg>
+    </div>
+</div>
+</div>
+  <div class="swiper recent-swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        {% assign product = all_products[block.settings.product] %}
+        {% if product %}
+          <div class="swiper-slide">
+            <a href="{{ product.url }}" class="recent-product-card">
+              <div class="recent-product-image">
+                <img
+                  src="{{ product.featured_image | img_url: '600x600' }}"
+                  alt="{{ product.title }}"
+                  loading="lazy"
+                >
+              </div>
+
+              <h3 class="recent-product-title">
+                {{ product.title }}
+              </h3>
+
+              <p class="recent-product-description">
+                {{ product.description | strip_html }}
+              </p>
+
+              <span class="recent-product-price">
+                {{ product.price | money }}
+              </span>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Desktop arrows -->
+  
+  </div>
+
+  </div>
+</section>
+
+<!-- Swiper CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<style>
+
+
+.recent-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.recent-product-card {
+  display: block;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.recent-product-card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
+
+.recent-product-image {
+  height: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recent-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom:16px;
+}
+
+.recent-product-title {
+  line-height: 116% !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;   /* number of lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      
+  margin: 10px 0 5px;
+}
+
+.recent-product-description {
+  font-size: 14px !important
+  ;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  
+  color: #000 !important
+  ;
+}
+
+.recent-product-price {
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+  color:#000000CC;
+}
+
+/* Swiper arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  background: rgba(35, 52, 72, 0.8);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 14px;
+}
+
+/* Hide arrows on mobile */
+@media (max-width: 767px) {
+
+
+  .recent-product-image {
+    height: 200px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".recent-swiper", {
+    spaceBetween: 20,
+    slidesPerView: 4,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.4
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 4
+      }
+    }
+  });
+});
+</script>

@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer.settings.footer-group.label",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo_info",
+          "settings": {
+            "logo": "shopify://shop_images/image_39_2f169bd3-a2d2-42db-ab29-709bb52fcda3.png",
+            "logo_width": 140,
+            "description": "FOTRIC is a trusted supplier of infrared thermal technology to a wide range of customers. We continuously offer excellent products and services to improve efficiency and ensure safety for our clients."
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick Links",
+            "menu": "main-menu-1",
+            "default_open": false
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick Links",
+            "menu": "main-menu-1",
+            "default_open": false
+          }
+        },
+        "footer-3": {
+          "type": "subscribe",
+          "settings": {
+            "color_scheme_subscribe": "",
+            "enable_box_shadow": false,
+            "icon_address": "shopify://shop_images/location_on.png",
+            "address": "2326 Walsh Avenue, Santa Clara, CA, USA",
+            "icon_email": "shopify://shop_images/email.png",
+            "email": "info@foteric.com",
+            "icon_phone": "shopify://shop_images/call.png",
+            "phone": "408-564-6230",
+            "heading": "",
+            "text": "Your Email",
+            "additional_text": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2",
+        "footer-3"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "content_alignment": "left",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_social": true,
+        "enable_copyright_date": true,
+        "enable_copyright_shopname": true,
+        "menu_bottom": "footer",
+        "show_policy": true,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
