@@ -11,18 +11,699 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "p {font-size: 16px !important; margin-bottom: 16px !important;}",
-        ".table-scroll {width: 100%;border : 1px solid #000; margin-bottom: 16px; overflow-x: auto;}",
+        ".table-scroll {width: 100%; border: 1px solid #000; margin-bottom: 16px; overflow-x: auto;}",
         ".table-scroll table {min-width: 900px; border-collapse: collapse;}"
       ],
       "settings": {
         "padding_top": "no-indent",
         "padding_bottom": "m"
       }
+    },
+    "hero_PhwcWg": {
+      "type": "hero",
+      "blocks": {
+        "title_zPL4Wg": {
+          "type": "title",
+          "settings": {
+            "heading": "Sense The Digital Future",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "description_GMRcmK": {
+          "type": "description",
+          "settings": {
+            "description": "Leading In Acoustic &Thermal Imaging Technology"
+          }
+        },
+        "buttons_RnTkf6": {
+          "type": "buttons",
+          "settings": {
+            "show_button_1": true,
+            "button_label_1": "Subscribe to Learn More",
+            "button_link_1": "#",
+            "button_style_1": "primary",
+            "show_button_2": false,
+            "button_label_2": "See More",
+            "button_link_2": "",
+            "button_style_2": "simple_secondary"
+          }
+        }
+      },
+      "block_order": [
+        "title_zPL4Wg",
+        "description_GMRcmK",
+        "buttons_RnTkf6"
+      ],
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; width: 200px !important; }}",
+        "@media (max-width: 767px) {.hero__outer.hero__outer--overlay {height: 354px; } .hero__buttons {max-width: 250px !important; } .button {width: 250px !important; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 26,
+        "hero_desc_width_mobile": 74,
+        "class": "headings_wiidth",
+        "layout": "overlay",
+        "header_overlay": false,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/571718_5c6e7995a58d461c9ce3059c2161c0a6_mv2_2.avif",
+        "imagembl": "shopify://shop_images/571718_5c6e7995a58d461c9ce3059c2161c0a6_mv2_2.avif",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "left",
+        "vertical_alignment": "middle",
+        "padding_top": "xs",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "multicolumn_dtAFHH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QYYicx": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>10+</h2><h6>YEARS OF INNOVATION</h6><p>Focused on Thermal Imaging Technology</p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        },
+        "column_Ugjtcm": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>40+</h2><h6>PATENTS AND IPRs</h6><p>Patents and Independent IPRs (Intellectual Property Rights)<br/><br/></p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        },
+        "column_jAQ3MX": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>40%+</h2><h6>R&D PERCENTAGE</h6><p>R&D Personnel in Total </p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        },
+        "column_bpiNXw": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "icon_color_scheme": "",
+            "icon_fill_type": "gradient",
+            "enable_link": false,
+            "link": "",
+            "heading": "",
+            "text": "<h2>10,000+</h2><h6>APPLICATIONS</h6><p>in Electric Utilities, Manufacturing, Metallurgy, petrochemical, R&D, etc.</p>",
+            "show_button": false,
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        }
+      },
+      "block_order": [
+        "column_QYYicx",
+        "column_Ugjtcm",
+        "column_jAQ3MX",
+        "column_bpiNXw"
+      ],
+      "custom_css": [
+        "h2 {margin-top: 16px !important;}"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "class": "smaill_cion_grid",
+        "section_type": "solid",
+        "color_scheme": "",
+        "enable_border": false,
+        "border_full": false,
+        "multicolumn_to_show": 4,
+        "content_horizontal_alignment": "center",
+        "content_vertical_alignment": "top",
+        "gap": "large",
+        "enable_mobile_overflow_slider": true,
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "left",
+        "icon_size": "small",
+        "box_shadow": true,
+        "icon_style": "colored",
+        "image_width": "small",
+        "image_ratio": "landscape",
+        "object_fit": "contain",
+        "card_heading_size": "h4",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "m",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_xx9BHQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_weBpfJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FOTRIC USA Inc.</strong> specializes in innovative sensing technologies designed for a broad range of industrial safety applications. Operating in over 50 countries, we provide advanced solutions for defect detection, condition monitoring, and risk prevention in sectors including manufacturing, chemical processing, metallurgy, coal and lithium-ion battery storage, waste management, electric utilities, oil & gas, and building infrastructure.</p><p>​From our inception, precision measurement and cutting-edge imaging technologies—both thermal and acoustic—have defined our approach. Our latest developments in acoustic imaging enable users to visualize sound, making it possible to detect issues like gas leaks, partial discharges, and mechanical anomalies with exceptional speed and accuracy. These capabilities complement our existing infrared solutions, allowing for a more comprehensive view of asset health and operational safety.</p><p>​Recognized as a certified high-tech enterprise, FOTRIC adheres to the highest quality standards, holding ISO 9001, FCC, CE, and KC certifications. Our leadership in industrial safety innovation is driven by a commitment to integrating emerging technologies into practical, reliable tools that elevate workplace safety.</p><p>​FOTRIC’s global footprint is supported by a strong distributor network across North America, Europe, Latin America, South Korea, Singapore, India, Australia, Taiwan, and more—ensuring not only accessible product channels but also local technical support and service.</p><p>Guided by the motto \"Sense the Digital Future,\" FOTRIC envisions a smarter, safer industrial world empowered by interconnected, data-driven sensing technologies. We are dedicated to delivering precise, real-time insights that help professionals make critical decisions to protect both people and assets.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_weBpfJ"
+      ],
+      "custom_css": [
+        "p {max-width: 100% !important;}",
+        ".rich-text__text {max-width: 100%;}",
+        " {background: #f8f8f8;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "alignment": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "rich_text_HmedeR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8AwVmU": {
+          "type": "heading",
+          "settings": {
+            "heading": "DEVELOPMENT MILESTONES <br> in FOTRIC's History",
+            "heading_size": "medium",
+            "heading_level": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8AwVmU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "about_line_section_DPTJPk": {
+      "type": "about_line_section",
+      "blocks": {
+        "event_wdtpUU": {
+          "type": "event",
+          "settings": {
+            "year": "2019",
+            "image": "shopify://shop_images/571718_749a806d05f0402e9016949589f722d1_mv2.jpg",
+            "description": "Launched the TD2 Acoustic Imaging Camera, delivering real-time leak detection and clear acoustic visualization to support industrial maintenance."
+          }
+        },
+        "event_cXcQFy": {
+          "type": "event",
+          "settings": {
+            "year": "2019",
+            "image": "shopify://shop_images/571718_749a806d05f0402e9016949589f722d1_mv2.jpg",
+            "description": "Launched the TD2 Acoustic Imaging Camera, delivering real-time leak detection and clear acoustic visualization to support industrial maintenance."
+          }
+        },
+        "event_6RtQeC": {
+          "type": "event",
+          "settings": {
+            "year": "2019",
+            "image": "shopify://shop_images/571718_749a806d05f0402e9016949589f722d1_mv2.jpg",
+            "description": "Launched the TD2 Acoustic Imaging Camera, delivering real-time leak detection and clear acoustic visualization to support industrial maintenance."
+          }
+        }
+      },
+      "block_order": [
+        "event_wdtpUU",
+        "event_cXcQFy",
+        "event_6RtQeC"
+      ],
+      "name": "Timeline Section",
+      "settings": {}
+    },
+    "rich_text_kaQLRt": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "m"
+      }
+    },
+    "hero_FTkxnG": {
+      "type": "hero",
+      "blocks": {
+        "title_6DT98Q": {
+          "type": "title",
+          "settings": {
+            "heading": "MISSION",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "title_xWKxDn": {
+          "type": "title",
+          "settings": {
+            "heading": "To constantly evolve our Acoustic and Thermal Imaging Technology and improve the lives of our distributors and customers every step of the way.",
+            "heading_size": "h1",
+            "heading_level": "h3",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        }
+      },
+      "block_order": [
+        "title_6DT98Q",
+        "title_xWKxDn"
+      ],
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}",
+        "@media (max-width: 767px) {.hero__outer.hero__outer--overlay.color-background-2.hero__outer--full.hero__outer--mobile-image-overlay {height: 254px; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}",
+        "@media only screen and (max-width: 767px) {.headings_wiidth .hero__content > *:not(.hero__subscription) {max-width: 37rem !important; }}"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 26,
+        "hero_desc_width_mobile": 74,
+        "class": "headings_wiidth",
+        "layout": "overlay",
+        "header_overlay": false,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "background-1",
+        "full_screen": true,
+        "image": "shopify://shop_images/571718_85f49c034e3c4c4b9e4a1247c9d26040_mv2.avif",
+        "imagembl": "shopify://shop_images/571718_85f49c034e3c4c4b9e4a1247c9d26040_mv2.avif",
+        "show_video": false,
+        "overlay_opacity": 0,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_pLqipR": {
+      "type": "hero",
+      "blocks": {
+        "title_Ga7wq3": {
+          "type": "title",
+          "settings": {
+            "heading": "VISION",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "title_VWiKkE": {
+          "type": "title",
+          "settings": {
+            "heading": "We strive to empower diverse industries with cutting-edge solutions that are not only effective but also intuitive and user-friendly, contributing to a safer, more connected world.",
+            "heading_size": "h1",
+            "heading_level": "h3",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        }
+      },
+      "block_order": [
+        "title_Ga7wq3",
+        "title_VWiKkE"
+      ],
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}",
+        "@media (max-width: 767px) {.hero__outer.hero__outer--overlay.color-background-2.hero__outer--full.hero__outer--mobile-image-overlay {height: 254px; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}",
+        "@media only screen and (max-width: 767px) {.headings_wiidth .hero__content > *:not(.hero__subscription) {max-width: 37rem !important; }}"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 26,
+        "hero_desc_width_mobile": 74,
+        "class": "headings_wiidth",
+        "layout": "overlay",
+        "header_overlay": false,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
+        "full_screen": true,
+        "image": "shopify://shop_images/571718_49c39d50a8a94d3691c159da91805daa_mv2.avif",
+        "imagembl": "shopify://shop_images/571718_49c39d50a8a94d3691c159da91805daa_mv2.avif",
+        "show_video": false,
+        "overlay_opacity": 0.2,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_LHg3QF": {
+      "type": "hero",
+      "blocks": {
+        "title_mbnxjV": {
+          "type": "title",
+          "settings": {
+            "heading": "VALUES",
+            "heading_size": "h1",
+            "heading_level": "h2",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        },
+        "title_j3X3k4": {
+          "type": "title",
+          "settings": {
+            "heading": " INNOVATION    INTEGRITY  ADAPTABILITY  ACCESSIBILITY  RELIABILITY",
+            "heading_size": "h1",
+            "heading_level": "h3",
+            "heading_line": "simple",
+            "line_color": "#1566e0",
+            "word_break": false,
+            "heading_animation": "rolling",
+            "word_break_an": false
+          }
+        }
+      },
+      "block_order": [
+        "title_mbnxjV",
+        "title_j3X3k4"
+      ],
+      "custom_css": [
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}",
+        "@media (max-width: 767px) {.hero__outer.hero__outer--overlay.color-background-2.hero__outer--full.hero__outer--mobile-image-overlay {height: 254px; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}",
+        "@media only screen and (max-width: 767px) {.headings_wiidth .hero__content > *:not(.hero__subscription) {max-width: 37rem !important; }}"
+      ],
+      "settings": {
+        "hero_desc_width_desktop": 26,
+        "hero_desc_width_mobile": 74,
+        "class": "headings_wiidth",
+        "layout": "overlay",
+        "header_overlay": false,
+        "header_transparent": false,
+        "block_type": "subtle",
+        "color_scheme": "background-1",
+        "full_screen": true,
+        "image": "shopify://shop_images/571718_85f49c034e3c4c4b9e4a1247c9d26040_mv2.avif",
+        "imagembl": "shopify://shop_images/571718_85f49c034e3c4c4b9e4a1247c9d26040_mv2.avif",
+        "show_video": false,
+        "overlay_opacity": 0,
+        "image_ratio": "adapt",
+        "object_fit": "cover",
+        "desktop_image_position": "after",
+        "mobile_image_position": "after",
+        "mobile_image_overlay": "overlay",
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "rich_text_Dq3aCM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fac7c6": {
+          "type": "heading",
+          "settings": {
+            "heading": "VALUED CLIENTS",
+            "heading_size": "medium",
+            "heading_level": "h2"
+          }
+        },
+        "text_reFUQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FOTRIC is a trusted supplier of infrared thermal technology to a wide range of customers. We continuously offer excellent products and services to improve efficiency and ensure safety for our clients.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fac7c6",
+        "text_reFUQ3"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "testimonials_HUbAP6": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials_slide_geW8JC": {
+          "type": "testimonials_slide",
+          "settings": {
+            "rating": 1,
+            "slide_text": "",
+            "image": "shopify://shop_images/571718_6c5174f0d8964db5a6d10df97a4b15e4_mv2_1.avif",
+            "slide_name": "Buyer's name",
+            "slide_position": ""
+          }
+        },
+        "testimonials_slide_AnabXd": {
+          "type": "testimonials_slide",
+          "settings": {
+            "rating": 1,
+            "slide_text": "",
+            "image": "shopify://shop_images/571718_5b3b1afcc67647328b10159add633613_mv2_1.avif",
+            "slide_name": "Buyer's name",
+            "slide_position": ""
+          }
+        },
+        "testimonials_slide_NpgWyh": {
+          "type": "testimonials_slide",
+          "settings": {
+            "rating": 1,
+            "slide_text": "",
+            "image": "shopify://shop_images/571718_5b3b1afcc67647328b10159add633613_mv2_1.avif",
+            "slide_name": "Buyer's name",
+            "slide_position": ""
+          }
+        },
+        "testimonials_slide_MJNLja": {
+          "type": "testimonials_slide",
+          "settings": {
+            "rating": 1,
+            "slide_text": "",
+            "image": "shopify://shop_images/571718_5b3b1afcc67647328b10159add633613_mv2_1.avif",
+            "slide_name": "Buyer's name",
+            "slide_position": ""
+          }
+        },
+        "testimonials_slide_gekBrN": {
+          "type": "testimonials_slide",
+          "settings": {
+            "rating": 1,
+            "slide_text": "",
+            "image": "shopify://shop_images/571718_5b3b1afcc67647328b10159add633613_mv2_1.avif",
+            "slide_name": "Buyer's name",
+            "slide_position": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_slide_geW8JC",
+        "testimonials_slide_AnabXd",
+        "testimonials_slide_NpgWyh",
+        "testimonials_slide_MJNLja",
+        "testimonials_slide_gekBrN"
+      ],
+      "custom_css": [
+        ".testimonials__rating {display: none;}",
+        ".testimonials__item {display: flex; justify-content: center; text-align: center;}"
+      ],
+      "name": "t:sections.testimonials.name",
+      "settings": {
+        "layout": "simple_slider",
+        "color_scheme": "",
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566e0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "center",
+        "slide_color_scheme": "background-1",
+        "slide_text_size": "recommended",
+        "enable_navigation": true,
+        "enable_navigation_mobile": true,
+        "navigation_color_scheme": "",
+        "enable_pagination": true,
+        "enable_pagination_mobile": true,
+        "pagination_color_scheme": "",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "textmainols_image_with_text_kTrhxm": {
+      "type": "textmainols_image_with_text",
+      "blocks": {
+        "image_rpqVz6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/571718_5353fb8caf3c4691b05842758cd07f84_mv2.avif"
+          }
+        },
+        "image_Y4GQUN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/571718_d4acde80e4bb4378b298a66e2a260561_mv2.avif"
+          }
+        },
+        "image_xx79UG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/571718_646630ef893c4339a6d3059af1effe83_mv2.avif"
+          }
+        }
+      },
+      "block_order": [
+        "image_rpqVz6",
+        "image_Y4GQUN",
+        "image_xx79UG"
+      ],
+      "name": "Testimonials Fade",
+      "settings": {
+        "heading": "TESTIMONIALS",
+        "name": "Duane",
+        "designation": "Miles Electrical Contractor",
+        "location": "Queensland, Australia",
+        "description": "<p><br/>The company I work for purchased the Fotric 326M thermal imaging camera sometime ago for use in our electrical maintenance and industrial sectors. The 326M is very user friendly and has met our expectations and needs.</p><p>The built in 8MP camera is great and produces a clear photo, I have found this particularly useful when scanning boards and I find an issue that is not related to thermal, this way all photos are kept together on the one device.</p><p>When thermally scanning a board for hotspots, the manual focus allows you to easily adjust it to get the image you want, one click of the button and 2 images are taken, one thermal of what you see and a non-thermal showing you what you have just scanned. If you are happy with the image, a second click automatically saves it. The unit is compact and lightweight, our one came with both the soft carry case and the hard one. I would recommend this product.</p>",
+        "button_text": "Explore More",
+        "button_link": ""
+      }
+    },
+    "rich_text_yA7dWf": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "class": "",
+        "color_scheme": "",
+        "full_width": true,
+        "alignment": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "m"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_PhwcWg",
+    "multicolumn_dtAFHH",
+    "rich_text_xx9BHQ",
+    "rich_text_HmedeR",
+    "about_line_section_DPTJPk",
+    "rich_text_kaQLRt",
+    "hero_FTkxnG",
+    "hero_pLqipR",
+    "hero_LHg3QF",
+    "rich_text_Dq3aCM",
+    "testimonials_HUbAP6",
+    "textmainols_image_with_text_kTrhxm",
+    "rich_text_yA7dWf"
   ]
 }

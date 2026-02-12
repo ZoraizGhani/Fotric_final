@@ -1,0 +1,265 @@
+<section class="zoom-timeline">
+    <div class="zoom-timeline-wrapper">
+      <div class="zoom-line"></div>
+  
+      {% for block in section.blocks %}
+        <div class="zoom-row {% cycle 'zoom-left','zoom-right' %}" {{ block.shopify_attributes }}>
+  
+          <div class="zoom-content">
+            <h4 class="zoom-year">{{ block.settings.year }}</h4>
+            <p class="zoom-text">{{ block.settings.description }}</p>
+          </div>
+  
+          <div class="zoom-center">
+            <span class="zoom-small-dot"></span>
+
+            <span class="zoom-small-line"></span>
+  
+            <div class="zoom-circle">
+              {% if block.settings.image %}
+                <img src="{{ block.settings.image | image_url: width: 600 }}" alt="">
+              {% endif %}
+            </div>
+          </div>
+  
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  
+  <style>
+  .zoom-timeline {
+    background: #ffffff;
+    position: relative;
+  }
+  
+  .zoom-timeline-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 120px 0;
+    position: relative;
+  }
+  
+  /* Center Line */
+  .zoom-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background: #bfbfbf;
+    transform: translateX(-50%);
+  }
+  
+  /* Rows */
+  .zoom-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 8px 0;
+  }
+  
+  .zoom-left {
+    flex-direction: row;
+  }
+  
+  .zoom-right {
+    flex-direction: row-reverse;
+  }
+  
+  /* Text */
+  .zoom-content {
+    width: 42%;
+    padding: 0 50px;
+  }
+  
+  .zoom-year {
+    margin: 0 0 10px;
+    color: #222;
+  }
+  
+  .zoom-text {
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Center Area */
+  .zoom-center {
+    width: 16%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Small Dot */
+  .zoom-small-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #d8d8d8;
+    border-radius: 50%;
+    z-index: 1;
+
+  
+  }
+  span.zoom-small-line {
+    height: 2px;
+    background: #d8d8d8;
+    display: block;
+    width: 58%;
+    position: absolute;
+   
+}
+
+  /* Small Dot */
+  .zoom-row.zoom-left  .zoom-small-dot {
+   
+    right: 0;
+  }
+  .zoom-row.zoom-left  span.zoom-small-line {
+  
+    right: 0;
+}
+.zoom-row.zoom-left   .zoom-center {
+    width: 27%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.zoom-row.zoom-right  .zoom-center {
+    width: 21%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  /* Small Dot */
+  .zoom-row.zoom-right .zoom-small-dot {
+   
+    left: 0;
+  }
+
+  .zoom-row.zoom-right .zoom-content {
+    width: 30%;
+    padding: 0 10px !important;
+}
+  .zoom-row.zoom-right  span.zoom-small-line {
+  
+    left: 0;
+}
+.zoom-content {
+    padding: 0;
+}
+.zoom-row.zoom-left {
+    width: 74%;
+}
+  /* Big Circle (Updated to match reference) */
+  .zoom-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+    border: 6px solid #cfcfcf;     /* Grey outer ring */
+    box-shadow: 0 0 0 6px #ffffff; /* White inner ring */
+    z-index: 2;
+  }
+  
+  /* Image inside circle */
+  .zoom-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .zoom-row {
+        width: 100% !important;
+        padding: 0 16px !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .zoom-timeline-wrapper {
+        padding: 0;
+    }
+    
+    .zoom-line {
+      left: 40px;
+    }
+    span.zoom-small-line {
+        display: none;
+    }
+
+    .zoom-circle {
+        width: 110px;
+        height: 93px;}
+        .zoom-row {
+            width: 100% !important;
+            padding: 0 16px !important;
+            display: flex;
+            flex-direction: row-reverse !important;
+            align-items: center !important;
+            justify-content: space-between;
+        }
+  
+    .zoom-content {
+      width: 68% !important;
+      padding: 0px 0 !important; 
+    }
+    .zoom-line {
+        display: none;
+    }
+    .zoom-center {
+      position: absolute;
+      left: 0;
+      width: auto;
+    }
+  }
+  </style>
+  
+  {% schema %}
+  {
+    "name": "Zoom Timeline",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "event",
+        "name": "Timeline Event",
+        "settings": [
+          {
+            "type": "text",
+            "id": "year",
+            "label": "Year"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Circle Image"
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Zoom Timeline"
+      }
+    ]
+  }
+  {% endschema %}

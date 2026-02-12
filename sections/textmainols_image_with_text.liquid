@@ -1,0 +1,229 @@
+<section class="container imgssss-testimonials-section">
+    <h2 class="imgssss-section-title">{{ section.settings.heading }}</h2>
+    <div class="imgssss-underline"></div>
+  
+    <div class="imgssss-testimonials-content">
+      
+      <!-- Images -->
+      <div class="imgssss-testimonials-images">
+        {% for block in section.blocks %}
+          {% if block.settings.image != blank %}
+            <img 
+              src="{{ block.settings.image | image_url: width: 1000 }}"
+              alt="testimonial-image"
+              class="imgssss-fade-img {% if forloop.first %}imgssss-active{% endif %}">
+          {% endif %}
+        {% endfor %}
+      </div>
+  
+      <!-- Text -->
+      <div class="imgssss-testimonial-text">
+        <h3>{{ section.settings.name }}</h3>
+  
+        <strong>
+          {{ section.settings.designation }}<br>
+          {{ section.settings.location }}
+        </strong>
+  
+        <div class="imgssss-testimonial-description">
+          {{ section.settings.description }}
+        </div>
+  
+        {% if section.settings.button_text != blank %}
+          <a href="{{ section.settings.button_link }}" class="imgssss-testimonial-btn">
+            {{ section.settings.button_text }}
+          </a>
+        {% endif %}
+      </div>
+  
+    </div>
+  </section>
+  
+  <style>
+  .imgssss-testimonials-section {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .imgssss-section-title {
+    color: #000;
+  }
+  
+  .imgssss-underline {
+    width: 60px;
+    height: 2px;
+    background: #000;
+    margin: 10px auto 30px;
+  }
+  
+  .imgssss-testimonials-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .imgssss-testimonials-images {
+    flex: 1;
+    max-width: 48%;
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  img.imgssss-fade-img.imgssss-active {
+    display: block;
+}
+img.imgssss-fade-img {
+    display: none;
+}
+  .imgssss-fade-img {
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .imgssss-active {
+    opacity: 1;
+  }
+  
+  .imgssss-testimonial-text {
+    flex: 1;
+width: 46%;
+    text-align: left;
+    color: #000;
+  }
+  
+  .imgssss-testimonial-text h3,
+  .imgssss-testimonial-text strong,
+  .imgssss-testimonial-description,
+  .imgssss-testimonial-description p {
+    color: #000;
+  }
+  
+  .imgssss-testimonial-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: rgba(21, 102, 224, 1);
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  
+  /* -------- MOBILE RESPONSIVE -------- */
+  
+  @media (max-width: 768px) {
+  
+    .imgssss-testimonials-content {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .imgssss-testimonials-images {
+      max-width: 100%;
+   
+    }
+  
+    .imgssss-testimonial-text {
+      max-width: 100%;
+      text-align: center;
+
+      width: 100%;
+    }
+  
+    .imgssss-testimonial-btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  </style>
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.imgssss-testimonials-section .imgssss-fade-img');
+    if (images.length <= 1) return;
+  
+    let current = 0;
+  
+    setInterval(() => {
+      images[current].classList.remove('imgssss-active');
+      current = (current + 1) % images.length;
+      images[current].classList.add('imgssss-active');
+    }, 3000);
+  });
+  </script>
+  
+  {% schema %}
+  {
+    "name": "Testimonials Fade",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Section Heading",
+        "default": "TESTIMONIALS"
+      },
+      {
+        "type": "text",
+        "id": "name",
+        "label": "Client Name",
+        "default": "Duane"
+      },
+      {
+        "type": "text",
+        "id": "designation",
+        "label": "Designation",
+        "default": "Miles Electrical Contractor"
+      },
+      {
+        "type": "text",
+        "id": "location",
+        "label": "Location",
+        "default": "Queensland, Australia"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Testimonial Description",
+        "default": "<p>Your testimonial text here...</p>"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Explore More"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Testimonial Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Upload Image"
+          }
+        ]
+      }
+    ],
+    "max_blocks": 4,
+    "presets": [
+      {
+        "name": "Testimonials Fade"
+      }
+    ]
+  }
+  {% endschema %}
+  
