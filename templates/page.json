@@ -12,9 +12,10 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "p {font-size: 16px !important; margin-bottom: 16px !important;}",
-        ".table-scroll {width: 100%;border : 1px solid #000; margin-bottom: 16px; overflow-x: auto;}",
-        ".table-scroll table {min-width: 900px; border-collapse: collapse;}"
+        "p,ul,tr,td,table,#warranty-table-caption {font-size: 16px !important; margin-bottom: 16px !important;}",
+        "figure {margin: 0 0 16px 0 !important;}",
+        "#warranty-table-caption {margin-bottom: 16px;}",
+        "@media (max-width: 767px) {figure {overflow: scroll; border: 1px solid #00000042; border-radius: unset; } p, ul, tr, td, table,#warranty-table-caption {font-size: 14px !important; margin-bottom: 16px !important; } table {width: 1000px !important; max-width: 821px !important;}#warranty-table-caption {margin: 16px; } figure {margin: 0; padding-bottom: 16px; }}"
       ],
       "settings": {
         "padding_top": "no-indent",

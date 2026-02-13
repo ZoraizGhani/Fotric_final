@@ -1,0 +1,162 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 16px !important; margin-bottom: 16px !important;}",
+        ".table-scroll {width: 100%; border: 1px solid #000; margin-bottom: 16px; overflow-x: auto;}",
+        ".table-scroll table {min-width: 900px; border-collapse: collapse;}"
+      ],
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "m"
+      }
+    },
+    "collapsible_content_KackJt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "accordion_dQfBFF": {
+          "type": "accordion",
+          "settings": {
+            "question": "1. What countries do you ship to?",
+            "answer": "<p>Orders made on our US website are only shipped within the contiguous US and we cannot deliver to the following areas:</p><p>1. Alaska</p><p>2. American Samoa</p><p>3. Guam</p><p>4. Hawaii</p><p>5. The Marshall Islands</p><p>6. The Northern Mariana Islands</p><p>7. Palau</p><p>8. Puerto Rico</p><p>9. U.S. Virgin Islands</p><p>10. Armed Forces Americas</p><p>11. Armed Forces Europe</p><p>12. Armed Forces Pacific</p>",
+            "opened": true
+          }
+        },
+        "accordion_YiB3dR": {
+          "type": "accordion",
+          "settings": {
+            "question": "2. How long does delivery take?",
+            "answer": "<p>Usually 3-7 business days.</p>",
+            "opened": true
+          }
+        },
+        "accordion_RJdQRV": {
+          "type": "accordion",
+          "settings": {
+            "question": "3. How will my delivery be shipped?",
+            "answer": "<p>Your order will be shipped either by the warehousing company that we directly cooperate with or by Amazon.</p>",
+            "opened": true
+          }
+        },
+        "accordion_yFhC9A": {
+          "type": "accordion",
+          "settings": {
+            "question": "4. How can I track my order?",
+            "answer": "<p>When your order is shipped you will receive a confirmation email. Click \"Track Order Status\" to track your order.</p>",
+            "opened": true
+          }
+        },
+        "accordion_fjM4dW": {
+          "type": "accordion",
+          "settings": {
+            "question": "5. What should I do if my order is marked as delivered but I haven't received it?",
+            "answer": "<p>When the courier finds that you are not at home or cannot get in touch with you, they may put your package in your mailbox, front desk, mail room, or your neighbor's house. Check the above places or ask your neighbors and anyone you might live with to see if the package was dropped off to them.</p><p> </p><p>Please contact the <a href=\"https://support.anker.com/s/contact-us\" target=\"_blank\"><span style=\"text-decoration:underline\">us Team</span></a> If your package still can’t be found.</p>",
+            "opened": true
+          }
+        },
+        "accordion_eDxcLG": {
+          "type": "accordion",
+          "settings": {
+            "question": "6. What if my package is returned to the sender?",
+            "answer": "<p>Your package may be returned to the original sender due to an incorrect or incomplete shipping address. Please contact the us Team and provide us with the correct shipping address and we will arrange a replacement for you.</p>",
+            "opened": true
+          }
+        }
+      },
+      "block_order": [
+        "accordion_dQfBFF",
+        "accordion_YiB3dR",
+        "accordion_RJdQRV",
+        "accordion_yFhC9A",
+        "accordion_fjM4dW",
+        "accordion_eDxcLG"
+      ],
+      "name": "t:sections.collapsible-content.name",
+      "settings": {
+        "layout": "background",
+        "color_scheme": "",
+        "enable_border": false,
+        "border_full": false,
+        "subheading": "",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Shipping FAQ",
+        "heading_size": "h2",
+        "heading_level": "h2",
+        "heading_line": "simple",
+        "line_color": "#1566E0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "",
+        "text_align": "center",
+        "row_color_scheme": "",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "featured_blog_FRgret": {
+      "type": "featured-blog",
+      "disabled": true,
+      "custom_css": [
+        "h2 {line-height: 110%; font-size: 22px !important;}"
+      ],
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "color_scheme": "",
+        "post_layout": "grid",
+        "enable_carousel": false,
+        "navigation_color_scheme": "",
+        "background_card": false,
+        "columns": 4,
+        "post_limit": 9,
+        "card_color_scheme": "",
+        "subheading": "Featured blog",
+        "subheading_style": "subtitle",
+        "subheading_icon": "none",
+        "heading": "Latest Articles",
+        "heading_size": "h3",
+        "heading_level": "h3",
+        "heading_line": "simple",
+        "line_color": "#1566E0",
+        "word_break": false,
+        "heading_animation": "none",
+        "word_break_an": false,
+        "text": "Your ultimate source for latest technology news and how-to guides.",
+        "image_ratio": "landscape",
+        "post_heading_size": "recommended",
+        "show_image": false,
+        "show_tags": false,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "show_view_all": true,
+        "button_label": "Read more",
+        "button_style": "primary",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_KackJt",
+    "featured_blog_FRgret"
+  ]
+}

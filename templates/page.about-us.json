@@ -64,7 +64,7 @@
         "buttons_RnTkf6"
       ],
       "custom_css": [
-        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; width: 200px !important; }}",
+        "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; width: 250px !important; }}",
         "@media (max-width: 767px) {.hero__outer.hero__outer--overlay {height: 354px; } .hero__buttons {max-width: 250px !important; } .button {width: 250px !important; } .headings_wiidth {margin-top: 0 !important; } .hero__content.container.hero__content--middle.hero__content--left {padding-top: 0; padding-bottom: 0; }}"
       ],
       "settings": {
@@ -461,7 +461,7 @@
         "title_j3X3k4": {
           "type": "title",
           "settings": {
-            "heading": " INNOVATION    INTEGRITY  ADAPTABILITY  ACCESSIBILITY  RELIABILITY",
+            "heading": " INNOVATION    INTEGRITY  ADAPTABILITY   ACCESSIBILITY  RELIABILITY",
             "heading_size": "h1",
             "heading_level": "h3",
             "heading_line": "simple",
@@ -604,7 +604,8 @@
       ],
       "custom_css": [
         ".testimonials__rating {display: none;}",
-        ".testimonials__item {display: flex; justify-content: center; text-align: center;}"
+        ".testimonials__item {display: flex; justify-content: center; text-align: center;}",
+        ".testimonials__pagination.no-js-hidden.swiper-pagination.color-background-1.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {padding-top: 16px;}"
       ],
       "name": "t:sections.testimonials.name",
       "settings": {
@@ -625,8 +626,8 @@
         "text_align": "center",
         "slide_color_scheme": "background-1",
         "slide_text_size": "recommended",
-        "enable_navigation": true,
-        "enable_navigation_mobile": true,
+        "enable_navigation": false,
+        "enable_navigation_mobile": false,
         "navigation_color_scheme": "",
         "enable_pagination": true,
         "enable_pagination_mobile": true,
