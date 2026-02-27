@@ -64,8 +64,6 @@
         "block_type": "subtle",
         "color_scheme": "background-2",
         "full_screen": true,
-        "image": "shopify://shop_images/Rectangle_443.png",
-        "imagembl": "shopify://shop_images/Rectangle_240662862_1.png",
         "show_video": false,
         "overlay_opacity": 0,
         "image_ratio": "21/9",
@@ -81,6 +79,7 @@
     },
     "image_with_text_Nc47Ux": {
       "type": "image-with-text",
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 767px) {.button {font-weight: 400 !important; height: 53px !important; }}"
       ],
@@ -113,7 +112,6 @@
         "inner_word_break": false,
         "description": "<p>FOTRIC delivers advanced thermal imaging solutions that help industries see beyond human vision. Our technology enables precise temperature analysis, smarter inspections, and confident decision-making in critical environments.</p>",
         "text_align_inner": "center",
-        "image": "shopify://shop_images/FOTRIC_TK1_Minimal.png",
         "enable_link": false,
         "link": "",
         "height": "adapt",
@@ -207,7 +205,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330603.png",
             "enable_link": false,
             "link": "",
             "heading": "Precision & Accuracy",
@@ -224,7 +221,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330603.png",
             "enable_link": false,
             "link": "",
             "heading": "Enhanced Insight",
@@ -241,7 +237,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330606.png",
             "enable_link": false,
             "link": "",
             "heading": "Precision & Accuracy",
@@ -258,7 +253,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330604.png",
             "enable_link": false,
             "link": "",
             "heading": "Enhanced Insight",
@@ -365,8 +359,6 @@
         "block_type": "subtle",
         "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
         "full_screen": true,
-        "image": "shopify://shop_images/Rectangle_140.png",
-        "imagembl": "shopify://shop_images/Rectangle_140_2.png",
         "show_video": false,
         "overlay_opacity": 0.2,
         "image_ratio": "adapt",
@@ -389,8 +381,7 @@
             "heading": "EcoFriendly Practices",
             "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
             "button_label": "Read More",
-            "button_link": "",
-            "image": "shopify://shop_images/Rectangle_433.png"
+            "button_link": ""
           }
         },
         "slide_z4C8xx": {
@@ -399,8 +390,7 @@
             "heading": "EcoFriendly Practices",
             "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
             "button_label": "Read More",
-            "button_link": "",
-            "image": "shopify://shop_images/Rectangle_433.png"
+            "button_link": ""
           }
         },
         "slide_mctBbW": {
@@ -409,8 +399,7 @@
             "heading": "EcoFriendly Practices",
             "text": "we're committed to offering products that make a difference. Our solutions not only help you get the job done but also promote sustainability and environmental care. By choosing our eco-conscious products, you support practices that help reduce your carbon footprint and contribute to a greener planet.",
             "button_label": "Read More",
-            "button_link": "",
-            "image": "shopify://shop_images/Rectangle_433.png"
+            "button_link": ""
           }
         }
       },
@@ -459,7 +448,6 @@
             "icon": "none",
             "icon_color_scheme": "",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/solar_temperature-bold_2.png",
             "enable_link": false,
             "link": "",
             "heading": "",
@@ -476,7 +464,6 @@
             "icon": "none",
             "icon_color_scheme": "",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/material-symbols_hd-outline-rounded.png",
             "enable_link": false,
             "link": "",
             "heading": "",
@@ -493,7 +480,6 @@
             "icon": "none",
             "icon_color_scheme": "",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/ri_target-fill_1.png",
             "enable_link": false,
             "link": "",
             "heading": "",
@@ -555,7 +541,6 @@
           "type": "image",
           "settings": {
             "tagline": "Precision & Accuracy",
-            "thumb": "shopify://shop_images/Rectangle_433.png",
             "button_text": "Read More",
             "button_link": ""
           }
@@ -564,7 +549,6 @@
           "type": "image",
           "settings": {
             "tagline": "Precision & Accuracy",
-            "thumb": "shopify://shop_images/Group_2087330607.png",
             "button_text": "Read More",
             "button_link": ""
           }
@@ -573,7 +557,6 @@
           "type": "image",
           "settings": {
             "tagline": "Precision & Accuracy",
-            "thumb": "shopify://shop_images/Group_2087330606.png",
             "button_text": "Read More",
             "button_link": ""
           }
@@ -582,7 +565,6 @@
           "type": "image",
           "settings": {
             "tagline": "Precision & Accuracys",
-            "thumb": "shopify://shop_images/Rectangle_140_1.png",
             "button_text": "Read More",
             "button_link": ""
           }
@@ -652,8 +634,6 @@
         "block_type": "subtle",
         "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
         "full_screen": true,
-        "image": "shopify://shop_images/Rectangle_140_1.png",
-        "imagembl": "shopify://shop_images/Rectangle_140_1.png",
         "show_video": false,
         "overlay_opacity": 0.2,
         "image_ratio": "adapt",
@@ -676,7 +656,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Rectangle_444.png",
             "enable_link": false,
             "link": "",
             "heading": "Precision & Accuracy",
@@ -693,7 +672,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Rectangle_445.png",
             "enable_link": false,
             "link": "",
             "heading": "Enhanced Insight",
@@ -710,7 +688,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Rectangle_446.png",
             "enable_link": false,
             "link": "",
             "heading": "Precision & Accuracy",
@@ -728,7 +705,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330604.png",
             "enable_link": false,
             "link": "",
             "heading": "Enhanced Insight",
@@ -835,7 +811,6 @@
           "type": "testimonial",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "imageavtor": "shopify://shop_images/Ellipse_6.png",
             "author": "Sara JEF"
           }
         },
@@ -843,7 +818,6 @@
           "type": "testimonial",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "imageavtor": "shopify://shop_images/Ellipse_6.png",
             "author": "Sara JEF"
           }
         },
@@ -851,7 +825,6 @@
           "type": "testimonial",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "imageavtor": "shopify://shop_images/Ellipse_6.png",
             "author": "Sara JEF"
           }
         },
@@ -859,7 +832,6 @@
           "type": "testimonial",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "imageavtor": "shopify://shop_images/Ellipse_6.png",
             "author": "Sara JEF"
           }
         },
@@ -867,7 +839,6 @@
           "type": "testimonial",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "imageavtor": "shopify://shop_images/Ellipse_6.png",
             "author": "Sara JEF"
           }
         }
@@ -894,7 +865,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/main_1.png",
             "enable_link": false,
             "link": "",
             "heading": "FOTRIC Unveils TD2 Sense Acoustic Imaging Module: Compact, Intelligent Acoustics for Robotics and Standalone Monitoring",
@@ -911,7 +881,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/main_FOTRIC_TK6_Thermal_Imaging_Camera_1.png",
             "enable_link": false,
             "link": "",
             "heading": "Spot Hidden Moisture Before It Becomes Costly—Meet the FOTRIC TK-series Thermal Camera!",
@@ -928,7 +897,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Rectangle_476.png",
             "enable_link": false,
             "link": "",
             "heading": "FOTRIC Launches TK6: True 384×288 Thermal Camera with Ceramic-Packaged Detector, Manual Focus, and 3.5” HD Display",
@@ -946,7 +914,6 @@
             "icon": "none",
             "icon_color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
             "icon_fill_type": "gradient",
-            "image": "shopify://shop_images/Group_2087330604.png",
             "enable_link": false,
             "link": "",
             "heading": "Enhanced Insight",
@@ -1059,8 +1026,6 @@
         "block_type": "subtle",
         "color_scheme": "scheme-86443e6f-fe4c-41f9-8a5b-4de09d4a71d2",
         "full_screen": true,
-        "image": "shopify://shop_images/Rectangle_140_2.png",
-        "imagembl": "shopify://shop_images/Rectangle_140.png",
         "show_video": false,
         "overlay_opacity": 0.2,
         "image_ratio": "adapt",
